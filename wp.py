@@ -5,7 +5,7 @@
 # Tested on: Linux 
 # CVE: CVE-2021-39312
 
-#Exploit Usage: python exploit.py -u "http://your-wpsite.com"
+#Exploit Usage: python exploit.py -u "http://127.0.0.1"
 
 import argparse, textwrap
 import requests
